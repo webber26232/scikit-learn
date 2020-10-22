@@ -41,6 +41,18 @@ enhance the functionality of scikit-learn's estimators.
   operators to design a machine learning pipeline, including data and feature
   preprocessors as well as the estimators. Works as a drop-in replacement for a
   scikit-learn estimator.
+  
+- `Featuretools <https://github.com/FeatureLabs/featuretools>`_
+  A framework to perform automated feature engineering. It can be used for 
+  transforming temporal and relational datasets into feature matrices for 
+  machine learning.
+
+- `Neuraxle <https://github.com/Neuraxio/Neuraxle>`_
+  A library for building neat pipelines, providing the right abstractions to
+  both ease research, development, and deployment of machine learning
+  applications. Compatible with deep learning frameworks and scikit-learn API,
+  it can stream minibatches, use data checkpoints, build funky pipelines, and
+  serialize models with custom per-step savers.
 
 **Experimentation frameworks**
 
@@ -93,6 +105,10 @@ enhance the functionality of scikit-learn's estimators.
 - `sklearn-porter <https://github.com/nok/sklearn-porter>`_
   Transpile trained scikit-learn models to C, Java, Javascript and others.
 
+- `treelite <https://treelite.readthedocs.io>`_
+  Compiles tree-based ensemble models into C code for minimizing prediction
+  latency.
+
 
 Other estimators and tasks
 --------------------------
@@ -142,6 +158,9 @@ and tasks.
 - `mlxtend <https://github.com/rasbt/mlxtend>`_ Includes a number of additional
   estimators as well as model visualization utilities.
 
+- `scikit-lego <https://github.com/koaning/scikit-lego>`_ A number of scikit-learn compatible 
+  custom transformers, models and metrics, focusing on solving practical industry tasks.
+
 **Other regression and classification**
 
 - `xgboost <https://github.com/dmlc/xgboost>`_ Optimised gradient boosted decision
@@ -181,7 +200,7 @@ and tasks.
   Dirichlet allocation in Cython which uses `Gibbs sampling
   <https://en.wikipedia.org/wiki/Gibbs_sampling>`_ to sample from the true
   posterior distribution. (scikit-learn's
-  :class:`sklearn.decomposition.LatentDirichletAllocation` implementation uses
+  :class:`~sklearn.decomposition.LatentDirichletAllocation` implementation uses
   `variational inference
   <https://en.wikipedia.org/wiki/Variational_Bayesian_methods>`_ to sample from
   a tractable approximation of a topic model's posterior distribution.)
@@ -205,6 +224,23 @@ and tasks.
 - `imbalanced-learn
   <https://github.com/scikit-learn-contrib/imbalanced-learn>`_ Various
   methods to under- and over-sample datasets.
+
+- `Feature-engine <https://github.com/solegalli/feature_engine>`_ A library
+  of sklearn compatible transformers for missing data imputation, categorical
+  encoding, variable transformation, discretization, outlier handling and more.
+  Feature-engine allows the application of preprocessing steps to selected groups
+  of variables and it is fully compatible with the Scikit-learn Pipeline.
+
+**Topological Data Analysis**
+
+- `giotto-tda <https://github.com/giotto-ai/giotto-tda>`_ A library for
+  `Topological Data Analysis
+  <https://en.wikipedia.org/wiki/Topological_data_analysis>`_ aiming to
+  provide a scikit-learn compatible API. It offers tools to transform data
+  inputs (point clouds, graphs, time series, images) into forms suitable for
+  computations of topological summaries, and components dedicated to
+  extracting sets of scalar features of topological origin, which can be used
+  alongside other feature extraction methods in scikit-learn.
 
 Statistical learning with Python
 --------------------------------

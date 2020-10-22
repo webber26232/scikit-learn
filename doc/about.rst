@@ -38,8 +38,18 @@ in the FAQ.
 
    :ref:`How you can contribute to the project <contributing>`
 
+Triage Team
+-----------
+
+The following people are active contributors who also help with
+:ref:`triaging issues <bug_triaging>`, PRs, and general
+maintenance:
+
+.. include:: triage_team.rst
+
 Emeritus Core Developers
 ------------------------
+
 The following people have been active contributors in the past, but are no
 longer active in the project:
 
@@ -108,7 +118,7 @@ Funding
 Scikit-Learn is a community driven project, however institutional and private
 grants help to assure its sustainability.
 
-The project would like to thank the following funders. 
+The project would like to thank the following funders.
 
 ...................................
 
@@ -174,7 +184,7 @@ Grisel, Guillaume Lemaitre, Jérémie du Boisberranger and Chiara Marmo.
    | |msn|   |  |bcg|   |
    +---------+----------+
    |                    |
-   +---------+----------+ 
+   +---------+----------+
    |  |axa|  |   |bnp|  |
    +---------+----------+
    ||fujitsu||  |intel| |
@@ -193,7 +203,7 @@ Grisel, Guillaume Lemaitre, Jérémie du Boisberranger and Chiara Marmo.
    </div>
    </div>
 
-........  
+........
 
 .. raw:: html
 
@@ -208,7 +218,7 @@ Grisel, Guillaume Lemaitre, Jérémie du Boisberranger and Chiara Marmo.
 
    <div class="sk-sponsor-div-box">
 
-.. image:: themes/scikit-learn/static/img/columbia.png 
+.. image:: themes/scikit-learn/static/img/columbia.png
    :width: 50pt
    :align: center
    :target: https://www.columbia.edu/
@@ -222,7 +232,7 @@ Grisel, Guillaume Lemaitre, Jérémie du Boisberranger and Chiara Marmo.
 
 .. raw:: html
 
-   <div class="sk-sponsor-div">   
+   <div class="sk-sponsor-div">
    <div class="sk-sponsor-div-box">
 
 Andreas Müller received a grant to improve scikit-learn from the
@@ -265,6 +275,32 @@ July 2017.
    :width: 100pt
    :align: center
    :target: https://sydney.edu.au/
+
+.. raw:: html
+
+   </div>
+   </div>
+
+...........
+
+.. raw:: html
+
+   <div class="sk-sponsor-div">
+   <div class="sk-sponsor-div-box">
+
+`Zalando SE <https://corporate.zalando.com/en>`_ funds Adrin Jalali since
+August 2020.
+
+.. raw:: html
+
+   </div>
+
+   <div class="sk-sponsor-div-box">
+
+.. image:: images/zalando_logo.png
+   :width: 100pt
+   :align: center
+   :target: https://corporate.zalando.com/en
 
 .. raw:: html
 
